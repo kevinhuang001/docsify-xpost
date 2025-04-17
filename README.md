@@ -1,9 +1,9 @@
 # docsify-xpost Plugin
 
 [![Version](https://img.shields.io/npm/v/docsify-xpost?style=flat-square)](https://www.npmjs.com/package/docsify-xpost)
-[![License](https://img.shields.io/npm/l/docsify-xpost?style=flat-square)](https://github.com/your-username/docsify-xpost/blob/main/LICENSE) // <-- **TODO: Update with your actual username/repo and license**
+[![License](https://img.shields.io/npm/l/docsify-xpost?style=flat-square)](https://github.com/kevinhuang001/docsify-xpost/blob/main/LICENSE)
 
-[English](./README.md) | [中文](./README.zh-CN.md) // <-- **TODO: If you plan separate files, adjust links. Otherwise, remove this line if keeping both in one file.**
+[English](./README.md) | [中文](./README.zh-CN.md)
 
 ---
 
