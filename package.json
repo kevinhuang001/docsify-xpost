@@ -1,0 +1,16 @@
+{
+  "name": "docsify-xpost",
+  "version": "0.0.1",
+  "description": "a docisfy plugin to make x post in docisfy.",
+  "main": "docsify-xpost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docisfy",
+    "plugin",
+    "x"
+  ],
+  "author": "Kevin Huang",
+  "license": "MIT"
+}
