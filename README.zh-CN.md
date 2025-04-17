@@ -23,8 +23,7 @@
     ```html
     <head>
       <!-- ... 其他 head 元素 ... -->
-      <script src="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.js"></script>
-      <!-- ... 其他 head 元素 ... -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.css"/>
     </head>
     ```
 
@@ -34,7 +33,8 @@
       <!-- ... Docsify 初始化 ... -->
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
       <!-- ... 其他 Docsify 插件 ... -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.css"/>
+      <script src="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.js"></script>
+     
       <!-- ... 可能还有其他脚本 ... -->
     </body>
     ```

@@ -26,8 +26,7 @@
     ```html
     <head>
       <!-- ... other head elements ... -->
-      <script src="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.js"></script>
-      <!-- ... other head elements ... -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.css"/>
     </head>
     ```
 
@@ -37,7 +36,7 @@
       <!-- ... Docsify initialization ... -->
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
       <!-- ... Other Docsify plugins ... -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.css"/>
+      <script src="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.js"></script>
       <!-- ... Potentially other scripts ... -->
     </body>
     ```
