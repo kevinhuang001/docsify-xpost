@@ -19,26 +19,27 @@
 
 ## 安装
 
-1.  **引入脚本:** 将以下 `<script>` 标签添加到您的 Docsify `index.html` 文件的 `<head>` 部分内：
+1.  **引入脚本:** 
+    ```html
+    <body>
+      <!-- ... Docsify 初始化 ... -->
+      <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+      <!-- ... 其他 Docsify 插件 ... -->
+      <script src="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.js"></script>
+     
+      <!-- ... 可能还有其他脚本 ... -->
+    </body>
+    
+    ```
+
+2.  **链接样式表:** 
     ```html
     <head>
       <!-- ... 其他 head 元素 ... -->
        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.css"/>
     </head>
     ```
-
-2.  **链接样式表:** 将以下 `<link>` 标签添加到您的 `index.html` 文件中 **主 Docsify 脚本标签 (`docsify.min.js`) 之后**。通常，这位于 `</body>` 结束标签之前：
-    ```html
-    <body>
-      <!-- ... Docsify 初始化 ... -->
-      <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-      <!-- ... 其他 Docsify 插件 ... -->
-      <script src="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.js"></script>
-     
-      <!-- ... 可能还有其他脚本 ... -->
-    </body>
-    ```
-    *（注意：虽然 CSS 通常放在 `<head>` 中，但根据您最初的指示，将其放在此处可确保它在 Docsify 核心样式之后加载，以避免潜在冲突。）*
+    
 
 ## 使用方法
 

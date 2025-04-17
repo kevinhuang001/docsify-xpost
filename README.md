@@ -15,32 +15,35 @@
 
 ### Features
 
-*   **Simple Integration:** Embed posts using intuitive Markdown comments.
-*   **Customizable Metadata:** Define avatar, username, timestamp, interaction counts (likes, retweets, etc.), and optional images.
-*   **Easy Styling:** Comes with pre-defined CSS for an authentic look and feel.
-*   **Lightweight:** Adds minimal overhead to your Docsify site.
+- **Simple Integration:** Embed posts using intuitive Markdown comments.
+- **Customizable Metadata:** Define avatar, username, timestamp, interaction counts (likes, retweets, etc.), and optional images.
+- **Easy Styling:** Comes with pre-defined CSS for an authentic look and feel.
+- **Lightweight:** Adds minimal overhead to your Docsify site.
 
 ### Installation
 
-1.  **Include the Script:** Add the following `<script>` tag inside the `<head>` section of your Docsify `index.html` file:
-    ```html
-    <head>
-      <!-- ... other head elements ... -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.css"/>
-    </head>
-    ```
+1.  **Include the Script:** 
 
-2.  **Link the Stylesheet:** Add the following `<link>` tag *after* the main Docsify script tag (`docsify.min.js`) in your `index.html` file. Typically, this goes just before the closing `</body>` tag:
     ```html
     <body>
       <!-- ... Docsify initialization ... -->
-      <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+      <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
       <!-- ... Other Docsify plugins ... -->
       <script src="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.js"></script>
       <!-- ... Potentially other scripts ... -->
     </body>
     ```
-    *(Note: While CSS is often placed in `<head>`, placing it here ensures it loads after Docsify's core styles if necessary, as per your original instructions).*
+
+2.  **Link the Stylesheet:** 
+    ```html
+    <head>
+      <!-- ... other head elements ... -->
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/docsify-xpost/docsify-xpost.css"
+      />
+    </head>
+    ```
 
 ### Usage
 
@@ -48,15 +51,15 @@ To embed an X-like post in your Markdown content, wrap your content and metadata
 
 **Available Metadata Keys:**
 
-*   `avatarUrl`: URL of the user's profile picture.
-*   `imageUrl`: (Optional) URL of an image attached to the post.
-*   `username`: Display name of the user.
-*   `userId`: The user's handle (e.g., @handle).
-*   `timestamp`: The post's date or time string.
-*   `likes`: Number of likes.
-*   `retweets`: Number of retweets.
-*   `comments`: Number of comments.
-*   `views`: Number of views.
+- `avatarUrl`: URL of the user's profile picture.
+- `imageUrl`: (Optional) URL of an image attached to the post.
+- `username`: Display name of the user.
+- `userId`: The user's handle (e.g., @handle).
+- `timestamp`: The post's date or time string.
+- `likes`: Number of likes.
+- `retweets`: Number of retweets.
+- `comments`: Number of comments.
+- `views`: Number of views.
 
 **Example:**
 
@@ -71,9 +74,11 @@ To embed an X-like post in your Markdown content, wrap your content and metadata
 <!-- retweets:13423 -->
 <!-- comments:123 -->
 <!-- views:321 -->
+
 This is the main content of your x post.
 It can span multiple lines.
 
 Nice to meet you! Hello, docsify-xpost!
+
 <!-- x:end -->
 ```
